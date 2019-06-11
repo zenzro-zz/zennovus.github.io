@@ -1,5 +1,10 @@
 /* Start of general styling and formatting */
 /* ---------------------------------------- */
+.header{
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
 	background-repeat: no-repeat;
