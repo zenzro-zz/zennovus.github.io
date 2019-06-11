@@ -1,4 +1,4 @@
-body{
+.bbground01{
 	background-image: url("/html/images/background01.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -6,10 +6,12 @@ body{
 	margin:0;
 	padding:0;
 }
-h1{
+.hfont01{
 	font-family: verdana;
 	font-size: 200%;
 }
+/* Start of styling for navigation bar */
+/* ---------------------------------------- */
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -38,6 +40,9 @@ li a:hover:not(.active){
 .deactive{
 	background-color: #111;
 }
+
+/* Footer at the bottom of the pages */
+/* ---------------------------------------- */
 .footer{
 	position: fixed;
 	left:0;
