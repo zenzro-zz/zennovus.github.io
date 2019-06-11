@@ -1,3 +1,5 @@
+/* Start of general styling and formatting */
+/* ---------------------------------------- */
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
 	background-repeat: no-repeat;
@@ -10,6 +12,14 @@
 	font-family: verdana;
 	font-size: 175%;
 }
+.transbox01{
+	margin: 30px;
+	background-color:#ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
 /* Start of styling for navigation bar */
 /* ---------------------------------------- */
 ul{
