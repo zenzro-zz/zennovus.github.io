@@ -13,19 +13,16 @@
 	margin:0;
 	padding:0;
 }
-.transbox01{
+/* Create three equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
 	margin: 30px;
 	background-color:#ffffff;
 	border: 1px solid black;
 	opacity: 0.6;
 	filter: alpha(opacity=60);
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
 }
 /* Clear floats after the columns */
 .row:after {
