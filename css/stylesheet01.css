@@ -33,7 +33,7 @@
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
-  width: 80%;
+  maxwidth: 250;
   padding: 20px;
 }
 
@@ -41,7 +41,7 @@
 .card {
 	background-color: white;
 	padding: 15px;
-	margin: 30px;	
+	margin: auto;	
 	background-color:#ffffff;	
 	border: 1px solid black;	
 	opacity: 0.6;	  float: left;
