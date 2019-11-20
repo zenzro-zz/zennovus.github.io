@@ -41,9 +41,13 @@
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+	background-color: white;
+	padding: 15px;
+	margin: 30px;	
+	background-color:#ffffff;	
+	border: 1px solid black;	
+	opacity: 0.6;	  float: left;
+	filter: alpha(opacity=60);
 }
 
 /* Clear floats after the columns */
