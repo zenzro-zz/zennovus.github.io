@@ -13,48 +13,65 @@
 	margin:0;
 	padding:0;
 }
-/* Create three equal columns that floats next to each other */
-.column{
+
+
+
+/*______________________________________________________________________*/
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
   float: left;
-  width: 33.33%;
-  padding: 15px;
-	margin: 30px;
-	background-color:#ffffff;
-	border: 1px solid black;
-	opacity: 0.6;
-	filter: alpha(opacity=60);
+  width: 75%;
 }
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/* Regular column*/
-.column {
-  float: left;
-}
-/* Left and right column */
-.column.side {
-  width: 25%;
-}
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-@media screen and (max-width:600px) {
-  .column {
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
     width: 100%;
+    padding: 0;
   }
 }
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
     width: 100%;
   }
 }
 
 
+
+/*______________________________________________________________________*/
 /* Start of styling for navigation bar */
 /* ---------------------------------------- */
 /* Style the top navigation bar */
@@ -78,7 +95,7 @@
 }
 
 
-
+/*______________________________________________________________________*/
 /* Footer at the bottom of the pages */
 /* ---------------------------------------- */
 .footer{
@@ -92,4 +109,12 @@
 	text-align: right;
         opacity: 0.70;
         filter: alpha(opacity=70);
+}
+
+/* Extra Footer*/
+.efooter {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
 }
