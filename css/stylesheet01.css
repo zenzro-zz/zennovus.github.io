@@ -17,8 +17,27 @@
 
 
 /*______________________________________________________________________*/
-/* Create two unequal columns that floats next to each other */
+/*Create three unequal columns that floats next to each other*/
+/*Creates a column*/
+.column{
+	float: left;
+}
+/*Column that is in the middle of the page*/
+.column.middle{
+	width: 50%;
+}
+/*Column(s) that are either Left or Right of the page*/
+.column.side{
+	width: 25%;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
 
+/* Create two unequal columns that floats next to each other */
 /* Main column */
 .maincolumn {   
 	float: left;
