@@ -24,11 +24,6 @@
 	float: middle;
 	width: 75%;
 }
-/* Left column */
-.leftcolumn {
-	float:left;
-	width: 33%;
-}
 /* Right column */
 .rightcolumn {
 	float: left;
