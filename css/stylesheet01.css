@@ -122,6 +122,7 @@
 /* Footer at the bottom of the pages */
 /* ---------------------------------------- */
 .footer{
+	padding: 20px;
 	position: fixed;
 	left:0;
 	bottom:0;
