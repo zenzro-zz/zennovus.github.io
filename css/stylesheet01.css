@@ -21,7 +21,7 @@
 
 /* Main column */
 .maincolumn {   
-	float: middle;
+	float: left;
 	width: 75%;
 }
 /* Right column */
