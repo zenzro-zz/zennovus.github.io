@@ -134,7 +134,7 @@
 /* Style the sidenavigation bar */
 .sidenav {
   margin-top: 75px;
-  width: 150px;
+  width: 125px;
   position: fixed;
   z-index: 1;
   top: 0;
