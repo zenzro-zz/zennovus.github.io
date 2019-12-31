@@ -19,8 +19,8 @@
 /*Scrollable Text*/
 .scroll01 {
   background-color: lightblue;
-  width: 75%;
-  height: 500px;
+  width: 100%;
+  height: 250px;
   overflow: auto;
 }
 
