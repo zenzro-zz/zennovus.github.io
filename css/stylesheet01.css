@@ -20,7 +20,7 @@
 .scroll01 {
   background-color: lightblue;
   width: 100%;
-  height: 250px;
+  height: 150px;
   overflow: auto;
 }
 
