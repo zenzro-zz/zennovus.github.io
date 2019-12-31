@@ -6,10 +6,6 @@
 	background-color: #f1f1f1;
 	text-align: center;
 }
-.header b:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
