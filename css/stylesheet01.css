@@ -1,8 +1,9 @@
 /* Start of general styling and formatting */
 /* ---------------------------------------- */
 .header{
+	height: 75;
+	width: 100%;
 	background-color: #f1f1f1;
-	padding: 8px;
 	text-align: center;
 }
 .bbground01{
