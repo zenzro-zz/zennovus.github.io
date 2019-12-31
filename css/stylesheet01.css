@@ -1,7 +1,7 @@
 /* Start of general styling and formatting */
 /* ---------------------------------------- */
 .header{
-	height: 75;
+	height: 100px;
 	width: 100%;
 	background-color: #f1f1f1;
 	text-align: center;
@@ -133,7 +133,7 @@
 
 /* Style the sidenavigation bar */
 .sidenav {
-  margin-top: 75px;
+  margin-top: 100px;
   width: 125px;
   position: fixed;
   z-index: 1;
