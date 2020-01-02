@@ -62,7 +62,7 @@
 /* Fake image */
 .fakeimg {
 	background-color: #aaa;
-	maxwidth: 250;
+	maxwidth: 250px;
 	padding: 20px;
 	margin: auto;
 }
