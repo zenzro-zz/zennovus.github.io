@@ -49,8 +49,8 @@
 /* Create two unequal columns that floats next to each other */
 /* Main column */
 .maincolumn {   
-	float: left;
-	width: 75%;
+	float: middle;
+	width: 100%;
 }
 
 /* Right column */
