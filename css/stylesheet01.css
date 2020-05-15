@@ -10,8 +10,7 @@
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
 	background-repeat: no-repeat;
-	backgorund-size: auto;
-	border: 2px solid black;
+	backgorund-size: 1600px 1200px ;
 	margin:0;
 	padding:0;
 }
