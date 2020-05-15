@@ -9,8 +9,8 @@
 
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
-	background-repeat: no-repeat;
-	backgorund-size: 1600px 1200px ;
+	background-repeat: auto;
+	backgorund-size: auto ;
 	margin:0;
 	padding:0;
 }
