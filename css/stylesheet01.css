@@ -8,7 +8,8 @@
 }
 
 .bbground01{
-	background-image: url("/html/images/background01.jpg");
+	/*background-image: url("/html/images/background01.jpg");*/
+	background-color: #646464;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
