@@ -141,6 +141,7 @@
   left: 0;
   background-color: #111;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 /* Side navigation links */
 .sidenav a {
@@ -148,6 +149,7 @@
   padding: 14px;
   text-decoration: none;
   display: block;
+  overflow-y: auto;
 }
 /* Change color on hover */
 .sidenav a:hover {
