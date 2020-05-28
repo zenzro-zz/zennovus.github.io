@@ -1,14 +1,7 @@
-/* Start of general styling and formatting */
-/* ---------------------------------------- */
-.header{
-	height: 100px;
-	width: 100%;
-	background-color: #f1f1f1;
-	border: .05px solid black;
-	border-radius: 5px;
-	text-align: center;
-}
-
+/*______________________________________________________________________*/
+/*----------------------------------------------------------------------*/
+/* Styles Background */
+/*----------------------------------------*/
 .bbground01{
 	background-image: url("/html/images/background01.jpg");
 	background-repeat: round;
@@ -18,8 +11,9 @@
 }
 
 /*______________________________________________________________________*/
-/*Text and Page Behavior*/
-/*Scrollable Text*/
+/*----------------------------------------------------------------------*/
+/* Styles Scroll Behavior */
+/*----------------------------------------*/
 .scroll01 {
   background-color: #f1f1f1;
   width: 100%;
@@ -28,24 +22,32 @@
 }
 
 /*______________________________________________________________________*/
+/*----------------------------------------------------------------------*/
+/* Styles Header */
+/*----------------------------------------*/
+.header{
+	height: 100px;
+	width: 100%;
+	background-color: #f1f1f1;
+	border: .05px solid black;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/*______________________________________________________________________*/
+/*----------------------------------------------------------------------*/
+/* Styles Body */
+/*----------------------------------------*/
 /*Create three unequal columns that floats next to each other*/
 /*Creates a column*/
 .column{
 	float: left;
 }
-/*Column that is in the middle of the page*/
 .column.middle{
 	width: 50%;
 }
-/*Column(s) that are either Left or Right of the page*/
 .column.side{
 	width: 25%;
-}
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -54,21 +56,17 @@
 	float: middle;
 	width: 75%;
 }
-
-/* Right column */
 .rightcolumn {
 	float: left;
 	width: 25%;
 }
 
-/* Fake image */
-.fakeimg {
-	background-color: #aaa;
-	maxwidth: 250px;
-	padding: 20px;
-	margin: auto;
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
-
 /* Add a card effect for articles */
 .card {
 	background-color: white;
@@ -81,14 +79,24 @@
 	float: left;
 	filter: alpha(opacity=60);
 }
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	maxwidth: 250px;
+	padding: 20px;
+	margin: auto;
 }
 
+
+/* Resize Response */
+/*----------------------------------------*/
+/*----------------------------------------*/
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .maincolumn, .rightcolumn {   
@@ -96,7 +104,6 @@
 	padding: 0;
   }
 }
-
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
@@ -105,12 +112,11 @@
   }
 }
 
-
-
 /*______________________________________________________________________*/
-/* Start of styling for navigation bar */
-/* ---------------------------------------- */
-/* Style the top navigation bar */
+/*----------------------------------------------------------------------*/
+/* Styles Nav Bar */
+/*----------------------------------------*/
+/* Top navigation bar */
 .topnav{
 	overflow: hidden;
 	background-color: #111;
@@ -134,7 +140,11 @@
   color: white;
 }
 
-/* Style the sidenavigation bar */
+/*______________________________________________________________________*/
+/*----------------------------------------------------------------------*/
+/* Styles SideNav Bar */
+/*----------------------------------------*/
+/* Side navigation bar */
 .sidenav {
   margin-top: 100px;
   width: 125px;
@@ -160,13 +170,11 @@
   color: black;
 }
 
-
-
-
-
 /*______________________________________________________________________*/
+/*----------------------------------------------------------------------*/
+/* Styles Footer Bar */
+/*----------------------------------------*/
 /* Footer at the bottom of the pages */
-/* ---------------------------------------- */
 .footer{
 	position: fixed;
 	left:0;
@@ -179,7 +187,6 @@
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 }
-
 /* Extra Footer*/
 .efooter {
 	padding: 20px;
