@@ -168,7 +168,7 @@
 .footer{
 	position: fixed;
 	background-color: grey;
-	padding: 10px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	left: 0;
    	bottom: 0;
