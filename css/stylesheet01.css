@@ -168,10 +168,10 @@
 .footer{
 	position: fixed;
 	background-color: grey;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 	left: 0;
    	bottom: 0;
-	height: 10px;
+	height: 15px;
    	width: 100%;
 	opacity: 0.70;
 	filter: alpha(opacity=70);
