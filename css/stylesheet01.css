@@ -132,6 +132,10 @@
   background-color: #8b0000;
   color: white;
 }
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 
 /* Resize Response */
 /*----------------------------------------*/
@@ -157,36 +161,6 @@
     display: block;
     text-align: left;
   }
-}
-
-/*______________________________________________________________________*/
-/*----------------------------------------------------------------------*/
-/* Styles SideNav Bar */
-/*----------------------------------------*/
-/* Side navigation bar */
-.sidenav {
-  margin-top: 100px;
-  width: 125px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-/* Side navigation links */
-.sidenav a {
-  color: white;
-  padding: 14px;
-  text-decoration: none;
-  display: block;
-  overflow-y: auto;
-}
-/* Change color on hover */
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 /*______________________________________________________________________*/
